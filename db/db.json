@@ -1,0 +1,36 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "",
+      "director": "",
+      "year": "",
+      "your rating": "" ,
+      "poster url": ""
+    },
+    {
+      "id": 2,
+      "title": "",
+      "director": "",
+      "year": "",
+      "your rating": "" ,
+      "poster url": ""
+    },
+    {
+      "id": 3,
+      "title": "",
+      "director": "",
+      "year": "",
+      "your rating": "" ,
+      "poster url": ""
+    },
+    {
+      "id": 4,
+      "title": "",
+      "director": "",
+      "year": "",
+      "your rating": "" ,
+      "poster url": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "movie-crud",
+  "version": "1.0.0",
+  "description": "### Make your own movie rating site.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfolkers/movie-crud.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bfolkers/movie-crud/issues"
+  },
+  "homepage": "https://github.com/bfolkers/movie-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "lowdb": "^0.15.5",
+    "nodemon": "^1.11.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}

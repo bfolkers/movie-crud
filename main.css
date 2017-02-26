@@ -1,0 +1,17 @@
+.list-link {
+  background-image: url("./film-reel.jpg");
+  background-size: 100% 100%;
+  display: block;
+  height: 625px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.homepage-nav {
+  margin-bottom: 0;
+}
+
+.main-form-pane {
+  margin-left: 20px;
+}
