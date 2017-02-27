@@ -13,12 +13,12 @@ router.get('/movies', (req, res) => {
 
 router.get('/movies/:id', (req, res) => {
   const movieId = parseInt(req.params.id);
-  const singleMovie = db.get('movie').find({id: movieId});
+  const singleMovie = db.get('movies').find({id: movieId});
   res.send(singleMovie);
 });
 
-router.post('/movie', (req, res) => {
-  db.get('movie')
+router.post('/movies', (req, res) => {
+  db.get('movies')
     .push(req.body)
     .write()
     .then(newMovie => {
