@@ -2,35 +2,43 @@
   "movies": [
     {
       "id": 1,
-      "title": "",
-      "director": "",
-      "year": "",
-      "your rating": "" ,
-      "poster url": ""
+      "title": "Hook",
+      "director": "Steven Spielberg",
+      "year": "1991",
+      "your rating": "5",
+      "poster url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU2MzYzOTQyMF5BMl5BanBnXkFtZTcwNDM2NDU2MQ@@._V1_.jpg"
     },
     {
       "id": 2,
-      "title": "",
-      "director": "",
-      "year": "",
-      "your rating": "" ,
-      "poster url": ""
+      "title": "Titanic",
+      "director": "James Cameron",
+      "year": "1997",
+      "your rating": "4",
+      "poster url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SY1000_CR0,0,671,1000_AL_.jpg"
     },
     {
       "id": 3,
-      "title": "",
-      "director": "",
-      "year": "",
-      "your rating": "" ,
-      "poster url": ""
+      "title": "Indiana Jones and the Temple of Doom",
+      "director": "Steven Spielberg",
+      "year": "1984",
+      "your rating": "3",
+      "poster url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTMyNzI4OTA5OV5BMl5BanBnXkFtZTcwMDQ2MjAxNA@@._V1_SY1000_CR0,0,660,1000_AL_.jpg"
     },
     {
       "id": 4,
-      "title": "",
-      "director": "",
-      "year": "",
-      "your rating": "" ,
-      "poster url": ""
+      "title": "The Magnificent Seven",
+      "director": "Antoine Fuqua",
+      "year": "2016",
+      "your rating": "4",
+      "poster url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzNTc0NTAyM15BMl5BanBnXkFtZTgwMTk1ODA5OTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Avatar",
+      "director": "James Cameron",
+      "year": "2009",
+      "your rating": "3",
+      "poster url": "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYwOTEwNjAzMl5BMl5BanBnXkFtZTcwODc5MTUwMw@@._V1_.jpg"
     }
   ]
 }

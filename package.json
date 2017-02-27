@@ -2,6 +2,7 @@
   "name": "movie-crud",
   "version": "1.0.0",
   "description": "### Make your own movie rating site.",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,6 +22,7 @@
     "dotenv": "^4.0.0",
     "express": "^4.14.1",
     "lowdb": "^0.15.5",
+    "morgan": "^1.8.1",
     "nodemon": "^1.11.0"
   },
   "devDependencies": {},
