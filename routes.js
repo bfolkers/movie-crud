@@ -18,9 +18,11 @@ router.get('/movies/:id', (req, res) => {
 });
 
 router.post('/movies', (req, res) => {
-  req.body.id = parseInt(req.body.id);
+  // req.body.id = parseInt(req.body.id);
   db.get('movies')
     .push(req.body)
+    .last()
+    .assign({"id": Date.now()})
     .write()
     .then(newMovie => {
       res.status(201).send(newMovie);
@@ -32,7 +34,8 @@ router.post('/movies', (req, res) => {
 
 router.put('/movies/:id/edit', (req, res) => {
   req.params.id = parseInt(req.params.id);
-  const movieId = req.params.id;
+  req.body.id = parseInt(req.body.id);
+  const movieId = parseInt(req.params.id);
   db.get('movies')
     .find({id: movieId})
     .assign(req.body)
